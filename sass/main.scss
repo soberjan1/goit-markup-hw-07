@@ -1,0 +1,26 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/v-hiden";
+
+// base styles
+@import "./base/base";
+@import "./base/reset";
+
+//components styles
+@import "./components/section"; 
+@import "./components/container";
+@import "./components/typography";
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/benefits";
+@import "./components/examples";
+@import "./components/team";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/footerform";
+@import "./components/modal";
+@import "./components/modalform";
+@import "./components/portfolliocards";
+

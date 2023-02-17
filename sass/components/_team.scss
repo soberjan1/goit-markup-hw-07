@@ -1,0 +1,50 @@
+.team {
+   background-color: #f4f4fd;
+ }
+ 
+ .menu-team {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 24px;
+ }
+ .menu-item-team {
+   flex-basis: calc((100% - 72px) / 4);
+ }
+ 
+ .team-card-content-wrapper {
+   text-align: center;
+   background: #ffffff;
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   border-radius: 0px 0px 4px 4px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+ 
+ .social-list {
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+ }
+ 
+ .social-list-link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: var(--primary-brand);
+ 
+   transition: background-color var(--250ms-animation);
+ }
+ 
+ .social-list-link:hover,
+ .social-list-link:focus {
+   background-color: var(--accent-color);
+ }
+ 
+ .social-list-icon {
+   width: 16px;
+   height: 16px;
+ }

@@ -1,0 +1,8 @@
+.menu-example {
+   display: flex;
+   gap: 24px;
+ }
+ 
+ .menu-item-img {
+   flex-basis: calc((100% - 48px) / 3);
+ }

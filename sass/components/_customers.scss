@@ -1,0 +1,26 @@
+
+.customers-list {
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+ }
+ 
+ .customers-list-link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+   width: 168px;
+   height: 88px;
+   border: 1px solid #8e8f99;
+   border-radius: 4px;
+   fill: #8e8f99;
+ 
+   transition: border var(--250ms-animation), fill var(--250ms-animation);
+ }
+ 
+ .customers-list-link:hover,
+ .customers-list-link:focus {
+   fill: #404bbf;
+   border: 1px solid#404BBF;
+ }

@@ -1,0 +1,135 @@
+.modal-form {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .modal-form-field {
+   margin-bottom: 8px;
+ }
+ .modal-form-field-comment {
+   margin-bottom: 16px;
+ }
+ 
+ .modal-p {
+   display: block;
+   margin-bottom: 14px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--secondary-color);
+ }
+ 
+ .modal-form-input-desc {
+   display: block;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.33;
+   letter-spacing: 0.04em;
+   margin-bottom: 4px;
+   color: #8e8f99;
+ }
+ 
+ .modal-form-input {
+   width: 100%;
+   height: 40px;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   border-radius: 4px;
+   padding-left: 38px;
+   color: var(--primary-color);
+ 
+   transition: border-color var(--250ms-animation);
+ }
+ 
+ .modal-form-input:focus {
+   border-color: var(--primary-brand);
+   outline: none;
+ }
+ 
+ .modal-form-input-wrapper {
+   display: block;
+   position: relative;
+ }
+ 
+ .modal-form-input-icon {
+   position: absolute;
+   top: 50%;
+   left: 19px;
+   transform: translateY(-50%);
+   display: block;
+   width: 18px;
+   height: 18px;
+ 
+   transition: fill var(--250ms-animation);
+ }
+ 
+ .modal-form-input:focus + .modal-form-input-icon {
+   fill: var(--primary-brand);
+ }
+ 
+ .modal-form-comment {
+   display: block;
+   resize: none;
+   width: 100%;
+   height: 120px;
+   padding: 8px 16px;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   border-radius: 4px;
+ 
+   transition: border-color var(--250ms-animation);
+ }
+ 
+ .modal-form-comment::placeholder {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.33;
+   letter-spacing: 0.04em;
+   color: rgba(117, 117, 117, 0.5);
+ }
+ 
+ .modal-form-comment:focus {
+   border-color: var(--primary-brand);
+   outline: none;
+ }
+ 
+ .modal-form-privacy-policy {
+   color: var(--primary-brand);
+ }
+ .modal-form-chek-desc {
+   display: flex;
+   align-items: center;
+   margin-bottom: 24px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 1.33;
+   letter-spacing: 0.04em;
+ 
+   color: #757575;
+ }
+ 
+ .modal-form-chek-desc::before {
+   display: block;
+   width: 16px;
+   height: 16px;
+   border: 1.25px solid var(--secondary-color);
+   border-radius: 2px;
+   content: '';
+   cursor: pointer;
+   margin-right: 8px;
+ 
+   transition: background-color var(--250ms-animation),
+     background-image var(--250ms-animation);
+ }
+ 
+ .modal-form-chek:checked + .modal-form-chek-desc::before {
+   background-color: var(--accent-color);
+   background-image: url('../images/galka-form.svg');
+   background-repeat: no-repeat;
+   background-position: 50%, 50%;
+ }
+ 
+ .modal-form-chek:focus + .modal-form-chek-desc::before {
+   outline: 1px solid var(--primary-brand);
+ }
+ 
+ 
