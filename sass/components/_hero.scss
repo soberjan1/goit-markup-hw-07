@@ -1,12 +1,14 @@
-.hero {
-   background-color: var(--secondary-color);
-   padding-top: 188px;
-   padding-bottom: 188px;
- }
- 
- .hero-background {
-   max-width: 1440px;
-   height: 600px;
+//0px-767px// MOBILE
+@media screen and (max-width:767px) {
+  .hero {
+    background-color: var(--secondary-color);
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+   .hero-background {
+   width: 100%;
+   height: 432px;
    margin-right: auto;
    margin-left: auto;
    background-image: linear-gradient(
@@ -14,14 +16,54 @@
        rgba(46, 47, 66, 0.7),
        rgba(46, 47, 66, 0.7)
      ),
-     url('../images/people-office-hero.jpg');
+     url('../images/people-office-hero-mob.jpg');
  
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
  }
+
+  .hero-title {
+   max-width: 320px;
+   margin-right: auto;
+   margin-left: auto;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.1;
+   text-align: center;
+   letter-spacing: 0.02em;
  
- .hero-title {
+   color: var(--basic-white-color);
+ }
+ 
+ .modal-btn { 
+  margin-top: 72px;
+ }
+
+}
+
+
+
+//0px-1199px// TABLET
+@media screen and (min-width:768px) { 
+
+  .hero {
+    background-color: var(--secondary-color);
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-background { 
+    height: 436px;
+    background-image: linear-gradient(
+       to right,
+       rgba(46, 47, 66, 0.7),
+       rgba(46, 47, 66, 0.7)
+     ),
+     url('../images/people-office-hero-tab.jpg');
+  }
+
+   .hero-title {
    max-width: 500px;
    margin-right: auto;
    margin-left: auto;
@@ -33,5 +75,58 @@
  
    color: var(--basic-white-color);
  }
+
+ .modal-btn { 
+  margin-top: 40px;
+ }
+ 
+
+
+}
+
+
+
+//0px-1200px// PC
+// @media screen and (min-width:1200px)
+
+
+
+
+
+// .hero {
+//    background-color: var(--secondary-color);
+//    padding-top: 188px;
+//    padding-bottom: 188px;
+//  }
+ 
+//  .hero-background {
+//    max-width: 1440px;
+//    height: 600px;
+//    margin-right: auto;
+//    margin-left: auto;
+//    background-image: linear-gradient(
+//        to right,
+//        rgba(46, 47, 66, 0.7),
+//        rgba(46, 47, 66, 0.7)
+//      ),
+//      url('../images/people-office-hero.jpg');
+ 
+//    background-repeat: no-repeat;
+//    background-position: center;
+//    background-size: cover;
+//  }
+ 
+//  .hero-title {
+//    max-width: 500px;
+//    margin-right: auto;
+//    margin-left: auto;
+//    font-weight: 700;
+//    font-size: 56px;
+//    line-height: 1.1;
+//    text-align: center;
+//    letter-spacing: 0.02em;
+ 
+//    color: var(--basic-white-color);
+//  }
  
  

@@ -40,6 +40,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" data-menu-open >
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use xlink:href="./images/sprite.svg#icon-menu-burger" ></use>
+          </svg>
+        </button>
         <address class="main-address">
           <ul class="address-menu list">
             <li class="mail">
@@ -55,6 +60,70 @@
           </ul>
         </address>
       </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container container">
+          <button class="mobile-menu-close-btn" data-menu-close>
+            <svg class="mobili-menu-close-icon" width="24" height="24">
+              <use xlink:href="./images/sprite.svg#icon-close-modal-btn"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu-nav list ">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-item-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-item-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-item-link link" href="./index.html">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="mobile-menu-address list">
+            <li class="phone">
+              <a class="mobile-contact-link-phone link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a>
+            </li>
+            <li class="mail">
+              <a class="mobile-contact-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a>
+            </li>
+          </ul>
+
+          <ul class="mobile-social-list list">
+            <li class="mobile-social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="mobile-social-list-icon">
+                  <use href="./images/sprite.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="mobile-social-list-icon">
+                  <use href="./images/sprite.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="mobile-social-list-icon">
+                  <use href="./images/sprite.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="mobile-social-list-icon">
+                  <use href="./images/sprite.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </div>
     </header>
     <main>
       <!-- Герой -->
@@ -67,8 +136,7 @@
         </div>
       </section>
       <!-- Преимущества -->
-      <section class="benefits section">
-        <!-- <h2>Benefits</h2> -->
+      <!-- <section class="benefits section">
         <div class="container">
           <ul class="menu-benefits list">
             <li class="menu-item-benefits">
@@ -121,9 +189,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Примеры работ -->
-      <section class="example section">
+      <!-- <section class="example section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="menu-example list">
@@ -150,9 +218,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Команда -->
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="menu-team list">
@@ -306,9 +374,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Сustomers -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list list">
@@ -356,10 +424,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- Футер -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-main-div container">
         <div class="footer-left-div">
           <a class="logo-footer link" href="./index.html"
@@ -423,10 +491,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Модалка -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg
@@ -490,6 +558,10 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+     -->
+
+     <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
+    
   </body>
 </html>
