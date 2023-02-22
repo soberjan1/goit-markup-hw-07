@@ -1,3 +1,27 @@
+@media screen and (max-width:1199px) {
+  .section-subtitle { 
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: var(--secondary-color);
+   }
+   .section-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: var(--primary-color);
+   }
+}
+
 //0px-767px// MOBILE
 @media screen and (max-width:767px) {
   .benefits {
@@ -15,27 +39,6 @@
    gap: 72px;
  }
 
- .section-subtitle { 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  
-  color: var(--secondary-color);
- }
-
- .section-description {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  
-  color: var(--primary-color);
- }
 }
 
 // //0px-1199px// TABLET
@@ -64,27 +67,6 @@
   .benefits-div-list { 
     display: none;
   }
-
-  .section-subtitle { 
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
-    color: var(--secondary-color);
-   }
-   .section-description {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    
-    color: var(--primary-color);
-   }
 }
 
 

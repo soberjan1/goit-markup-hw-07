@@ -1,8 +1,21 @@
 
+
 .customers-list {
+  
    display: flex;
    justify-content: center;
    gap: 24px;
+
+   @include mobile-only { 
+    flex-wrap: wrap; 
+    row-gap:72px;
+    column-gap: 16px; }
+
+    @include tablet-only { 
+      flex-wrap: wrap; 
+      row-gap:72px;
+      column-gap: 24px;
+    }
  }
  
  .customers-list-link {
