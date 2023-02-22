@@ -1,8 +1,60 @@
-.menu-example {
-   display: flex;
-   gap: 24px;
- }
+//0px-767px// MOBILE
+@media screen and (max-width:767px) { 
+  .section-title { 
+    display: none;
+  }
+
+  .menu-example{ 
+    display: none;
+  }
+
+  .example {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+}
+  
+
+
+
+
+// //0px-1199px// TABLET
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-title { 
+    display: none;
+  }
+
+  .menu-example{ 
+    display: none;
+  }
+  
+  .example {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  
+  }
+
+//0px-1200px// PC
+@media screen and (min-width:1200px) { 
+  .menu-example {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .menu-item-img {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+}
+
+// .menu-example {
+//    display: flex;
+//    gap: 24px;
+//  }
  
- .menu-item-img {
-   flex-basis: calc((100% - 48px) / 3);
- }
+//  .menu-item-img {
+//    flex-basis: calc((100% - 48px) / 3);
+//  }

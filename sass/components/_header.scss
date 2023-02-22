@@ -27,12 +27,19 @@
  
    margin-right: 76px;
  }
-}
 
-.page-header {
+ .page-nav { 
+  display: flex;
+  text-align: center;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+}
+
+// .page-header {
+//   padding-top: 24px;
+//   padding-bottom: 24px;
+// }
 .page-header-container { 
   display: flex;
   align-items: center;
@@ -49,6 +56,8 @@
   .page-nav { 
     display: flex;
     text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .logo {
@@ -136,8 +145,6 @@
 @media screen and (min-width:1200px) {
 
   .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid#E7E9FC;
   }
   
