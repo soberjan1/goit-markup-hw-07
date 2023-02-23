@@ -28,3 +28,12 @@
      @content;
    }
  }
+
+
+ // -------------- Миксин для адаптивки -------------
+
+ @mixin mobile-320px {
+  @media screen and (min-width: 320px) and (max-width: 428px) {
+    @content;
+  }
+}

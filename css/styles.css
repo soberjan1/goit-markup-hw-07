@@ -213,6 +213,11 @@ img {
   height: 600px;
   margin-right: auto;
   margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
@@ -220,9 +225,6 @@ img {
     ),
     url('../images/people-office-hero.jpg');
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .hero-title {

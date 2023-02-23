@@ -31,6 +31,10 @@
    padding-left: 24px;
    padding-right: 24px;
    padding-bottom: 24px;
+
+   @include mobile-320px { 
+    width: 95%;
+   }
  }
  
  
