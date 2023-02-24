@@ -1,21 +1,21 @@
 
 
 .customers-list {
-  
    display: flex;
    justify-content: center;
    gap: 24px;
 
    @include mobile-only { 
-    flex-wrap: wrap; 
-    row-gap:72px;
-    column-gap: 16px; }
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px;
+   }
 
-    @include tablet-only { 
-      flex-wrap: wrap; 
-      row-gap:72px;
-      column-gap: 24px;
-    }
+   @include tablet-only { 
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+   }
  }
  
  .customers-list-link {
@@ -29,11 +29,24 @@
    border-radius: 4px;
    fill: #8e8f99;
  
-   transition: border var(--250ms-animation), fill var(--250ms-animation);
+   transition: border var(--250ms-animation),
+  fill var(--250ms-animation);
+
+  @include mobile-only { 
+    width: 100%;
+  }
  }
  
  .customers-list-link:hover,
  .customers-list-link:focus {
    fill: #404bbf;
    border: 1px solid#404BBF;
+ }
+
+ .customers-list-item { 
+  flex-basis: calc((100% - 16px)/2);
+
+  @include tablet-only { 
+    flex-basis: calc((100% - 16px)/4);
+  }
  }
