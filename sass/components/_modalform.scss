@@ -38,7 +38,7 @@
    padding-left: 38px;
    color: var(--primary-color);
  
-   transition: border-color var(--250ms-animation);
+   transition: border-color var(--animation);
  }
  
  .modal-form-input:focus {
@@ -60,7 +60,7 @@
    width: 18px;
    height: 18px;
  
-   transition: fill var(--250ms-animation);
+   transition: fill var(--animation);
  }
  
  .modal-form-input:focus + .modal-form-input-icon {
@@ -76,7 +76,7 @@
    border: 1px solid rgba(33, 33, 33, 0.2);
    border-radius: 4px;
  
-   transition: border-color var(--250ms-animation);
+   transition: border-color var(--animation);
  }
  
  .modal-form-comment::placeholder {
@@ -117,8 +117,8 @@
    cursor: pointer;
    margin-right: 8px;
  
-   transition: background-color var(--250ms-animation),
-     background-image var(--250ms-animation);
+   transition: background-color var(--animation),
+     background-image var(--animation);
  }
  
  .modal-form-chek:checked + .modal-form-chek-desc::before {

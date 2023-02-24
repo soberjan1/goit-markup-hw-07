@@ -14,8 +14,8 @@
       visibility: hidden;
       pointer-events: none;
       
-      transition: opacity var(--250ms-animation), visibility var(--250ms-animation), 
-      pointer-events var(--250ms-animation);
+      transition: opacity var(--animation), visibility var(---animation), 
+      pointer-events var(--animation);
    }
    
    .mobile-menu.is-open {
@@ -73,9 +73,9 @@
       letter-spacing: 0.02em;
       
       color: var(--secondary-color);
-      transition: color var(--250ms-animation);
+      transition: color var(--animation);
     }
-   
+  
     
     .mobile-menu-item-link:hover,
     .mobile-menu-item-link:focus {

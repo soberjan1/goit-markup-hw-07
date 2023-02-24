@@ -20,7 +20,7 @@
    color: var(--basic-white-color);
    background-color: var(--primary-brand);
  
-   transition: background-color var(--250ms-animation);
+   transition: background-color var(--animation);
  }
  
  .modal-btn:hover,
@@ -47,7 +47,7 @@
    border: 1px solid rgba(0, 0, 0, 0.1);
    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
  
-   transition: color var(--250ms-animation);
+   transition: color var(--animation);
  }
  .icon-close-modal-btn:hover,
  .icon-close-modal-btn:focus,
@@ -83,7 +83,7 @@
    color: #ffffff;
    background-color: var(--primary-brand);
  
-   transition: background-color var(--250ms-animation);
+   transition: background-color var(--animation);
  }
  
  .modal-form-submit:hover,
@@ -154,8 +154,8 @@
    
      color: var(--primary-brand);
    
-     transition: color var(--250ms-animation),
-       background-color var(--250ms-animation), box-shadow var(--250ms-animation);
+     transition: color var(--animation),
+       background-color var(--animation), box-shadow var(--animation);
    }
    
    .menu-btn:hover,
